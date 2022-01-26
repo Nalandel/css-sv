@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+body{
+    background-color: #f1f1f1;
+
+    font-size: 20px;
+    
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgb(7, 7, 8);
+}
+
+.cosial h2{
+    margin-left: 10px;
+}
+.info{
+    display: flex ;
+    margin-bottom: 20px;
+}
+.info-text{
+    margin-left: 50px;
+}
+.info p{
+    color: #868986;
+    margin: 0;
+}
+
+.conteiner{
+    max-width: 750px;
+    margin: auto;
+    padding-top:30px;
+}
+
+.bg-yellow{
+    background: #fff9dc;
+}
+.bg-green{
+    background: #e5ffe7;
+}
+
+
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.list {
+    padding: 0 20px;
+}
+.list li{
+    color: #868986;
+    margin-bottom: 10px;
+}
+.table{
+    width: 100%;
+}
+.contact h3{
+ text-align: center;
+}
+.form-grupe label{
+    display: block;
+    font-size: 14px;
+    color: orchid;
+}
+.form-grupe input,
+.form-grupe textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 15 0 10;
+    outline: none;
+    font-family: inherit;
+}
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-grupe{
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .form-grupe:last-child{
+    margin-right: 0;
+}
+.btn{
+    background: #111;
+    color: white;
+    padding: 15 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.btn:hover{
+    opacity: 0.9;
+}
