@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  
+}
+
+.zago{
+    text-align: center;
+    padding-top: 40px;
+    background: rgba(37, 44, 134, 0.6);
+    margin: 0 750px;
+    padding: 10px;
+    border-radius: 27%;
+}
+
+.parallax{
+    background: url(para.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.page-content{
+    padding: 100px 50px;
+}
+.parallax h1{
+    color: cornsilk;
+    font-size: 70px;
+}
+.parallax .mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 2;
+}
+.parallax-content{
+    z-index: 3;
+}
+
+.parallax-2{
+    background: url(para-2.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.page-content-2{
+    padding: 50px 50px;
+}
+.parallax-2 h1{
+    color: cornsilk;
+    font-size: 70px;
+}
+.parallax-2 .mask-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 2;
+}
+.parallax-content-2{
+    z-index: 3;
+}
